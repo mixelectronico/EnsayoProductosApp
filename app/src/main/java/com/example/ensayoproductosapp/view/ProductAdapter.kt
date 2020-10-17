@@ -7,6 +7,7 @@ import com.example.ensayoproductosapp.model.Product
 
 class ProductAdapter(var listOfProducts : List<Product>): RecyclerView.Adapter<ProductAdapter.ProductViewHolder>() {
 
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductViewHolder {
         TODO("Not yet implemented")
     }
